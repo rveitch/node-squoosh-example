@@ -1,0 +1,13 @@
+_build
+bower_components
+dist
+node_modules
+private_modules
+public
+tmp
+vendor
+
+*.json
+*.yml
+
+# Specific vendor files living outside of vendor directories

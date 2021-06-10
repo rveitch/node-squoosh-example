@@ -1,0 +1,15 @@
+{
+  "name": "node-squoosh-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "image-converter.js",
+  "scripts": {
+    "start": "node image-converter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Veitch",
+  "license": "ISC",
+  "dependencies": {
+    "@squoosh/lib": "0.2.3"
+  }
+}
