@@ -1,4 +1,5 @@
-const { ImagePool } = require('@squoosh/lib');
+// const { ImagePool } = require('@squoosh/lib'); // Doesn't work due to bug in package.json (https://github.com/GoogleChromeLabs/squoosh/issues/1034)
+const { ImagePool } = require('@squoosh/lib/build/index.js'); // Work around
 const fs = require('fs');
 
 const RAW_IMAGES_FOLDER = './raw-images/'
