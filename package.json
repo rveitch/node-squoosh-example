@@ -10,6 +10,7 @@
   "author": "Ryan Veitch",
   "license": "ISC",
   "dependencies": {
-    "@squoosh/lib": "0.2.3"
+    "@squoosh/lib": "0.2.3",
+    "exiftool-vendored": "14.5.0"
   }
 }
